@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hamilton.css">
+    <link rel="shortcut icon" href="obrazky/44.avif"/>
+    <title>Kontakt</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="logo">
+        <a href="Hamilton.html"><img src="obrazky/mercedes.webp" alt=""></a>
+        </div>
+        <header>
+            <div class="menu-button" onclick="toggleMenu()"><img src="obrazky/Znacka.jpg" alt=""></div>
+        </header>
+        
+        <nav id="mobile-menu">
+            <div class="close-button" onclick="toggleMenu()"><img src="images/close.png" alt=""></div>
+            <ul>
+                <li><a href="Hamilton.html" onclick="toggleMenu()">Domů</a></li>
+                <li><a href="Hamilton Kariera.html" onclick="toggleMenu()">Kariera</a></li>
+                <li><a href="Hamilton Galerie.html" onclick="toggleMenu()">Galerie</a></li>
+                <li><a href="Hamilton Kontakt.html" onclick="toggleMenu()">Kontakt</a></li>
+                <li><a href="Hamilton Tym.html" onclick="toggleMenu()">Tým</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h2>Kontaktujte nás</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Jméno:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Zpráva:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Odeslat">
+                </div>
+            </form>
+        </div>
+        <footer>
+            Jindra Venclíček - Najít nás můžete <a href="https://www.google.com/maps/place/SO%C5%A0+a+SOU+Ho%C5%99ovice/@49.8366186,13.9022619,17z/data=!3m1!4b1!4m6!3m5!1s0x470b0760b2aadf89:0x2bc0b5f6dfee3b04!8m2!3d49.8366186!4d13.9022619!16s%2Fg%2F1tg_85wm?hl=cs-CZ&entry=ttu">zde</a>
+        </footer>
+    <script src="Hamilton.js"></script>
+</body>
+</html>
